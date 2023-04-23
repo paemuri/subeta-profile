@@ -1,10 +1,19 @@
-/* This code is released u */
+/*
+ * This project code is in the public domain.
+ * See more at git.sr.ht/~paemuri/subeta-profile or paemuri.com.
+ */
+
+/* Change the following variables to adapt your profile */
 :root {
   --page-bg: #282828;
   --section-bg: #282828;
   --font-color: #fdf4c1;
   --font-family: 'Fira Mono', monospace;
 }
+
+/*
+ * Don't touch anything below this comment!
+ */
 
 body {
   background: var(--page-bg);
@@ -23,7 +32,7 @@ a:hover {
 
 /* Top bar */
 #navigation {
-  background: var(--font-color);
+  background: var(--page-bg);
   color: var(--font-color);
 }
 

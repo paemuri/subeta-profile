@@ -2,8 +2,8 @@
 
 [![License][badge-1-img]][badge-1-link]
 
-Small custom profile for Subeta. See examples: [paemuri][1] and
-[Kapiyeya][2].
+Small custom CSS theme for Subeta profiles. See examples: [paemuri][1]
+and [Kapiyeya][2].
 
 To use it, simply add the content of `profile.css` into your profile
 description, inside of a `<style>` tag. Don't forget to change the
