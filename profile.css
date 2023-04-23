@@ -32,7 +32,7 @@ a:hover {
 
 /* Top bar */
 #navigation {
-  background: var(--page-bg);
+  background: var(--section-bg);
   color: var(--font-color);
 }
 
