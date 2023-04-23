@@ -5,13 +5,19 @@
 Small custom CSS theme for Subeta profiles. See examples: [paemuri][1]
 and [Kapiyeya][2].
 
-To use it, simply add the content of `profile.css` into your profile
+To use it, simply add the content of [`profile.css`][3] into your profile
 description, inside of a `<style>` tag. Don't forget to change the
 variables' values.
 
+## Examples
+
+[![paemuri][./static/paemuri.png]][1]
+
+[![Kapiyeya][./static/kapiyeya.png]][2]
+
 ## License
 
-This project code is in the public domain. See the [LICENSE file][3].
+This project code is in the public domain. See the [LICENSE file][4].
 
 ### Contribution
 
@@ -21,7 +27,8 @@ domain, without any additional terms or conditions.
 
 [1]: https://subeta.net/users/paemuri
 [2]: https://subeta.net/users/Kapiyeya
-[3]: ./LICENSE
+[3]: ./profile.css
+[4]: ./LICENSE
 
 [badge-1-img]: https://img.shields.io/badge/license-Unlicense-green?style=flat-square
 [badge-1-link]: ./LICENSE
