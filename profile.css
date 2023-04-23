@@ -1,0 +1,103 @@
+/* This code is released u */
+:root {
+  --page-bg: #282828;
+  --section-bg: #282828;
+  --font-color: #fdf4c1;
+  --font-family: 'Fira Mono', monospace;
+}
+
+body {
+  background: var(--page-bg);
+  font-family: var(--font-family);
+}
+
+a, a:active {
+  color: var(--font-color) !important;
+  text-decoration: underline !important;
+}
+
+a:hover {
+  color: var(--font-color);
+  text-decoration: underline;
+}
+
+/* Top bar */
+#navigation {
+  background: var(--font-color);
+  color: var(--font-color);
+}
+
+/* Sections */
+.block {
+  background: var(--section-bg);
+  border: 5px solid var(--section-bg);
+  color: var(--font-color);
+  margin-top: 15px !important;
+}
+
+/* Sections' headers */
+.header:first-child {
+  background: var(--section-bg);
+  border-bottom: 1px solid var(--font-color);
+  margin-bottom: 5px;
+}
+
+/* Sections' bodies */
+.info_block {
+  background: var(--section-bg);
+}
+
+/* Comments box */
+.comment_table {
+  background: var(--section-bg);
+  border: none;
+}
+
+/* Comments box "all comments */
+#all_comments {
+  background: none;
+  border: none;
+}
+
+/* New comment input fields */
+#content_comment .textbox {
+  background: var(--section-bg);
+  border-color: var(--font-color);
+  color: var(--font-color);
+  margin-bottom: 1px;
+}
+#content_comment .forminput {
+  background: var(--section-bg);
+  border-color: var(--font-color);
+  color: var(--font-color);
+}
+#content_comment .forminput:hover {
+  background: var(--font-color);
+  border-color: var(--font-color);
+  color: var(--section-bg);
+  cursor: pointer;
+}
+
+/* Last.fm box' buttons */
+#lastfm-show > li {
+  background: var(--section-bg);
+  border-color: var(--font-color);
+  border-radius: 0;
+}
+#lastfm-show > li:hover {
+  background: var(--font-color);
+  border-color: var(--font-color);
+  color: var(--section-bg);
+}
+
+/* Random images with white background */
+#content_shops img, /* shops */
+#content_medals img, /* medals */
+#content_stickers img, /* stickers */
+#content_avatar table img, /* clothes */
+#content_options center > a:first-child img /* flower */ {
+  border-radius: 7px;
+  border: 1px solid black;
+  height: 60px;
+  width: 60px;
+}
