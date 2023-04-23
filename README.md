@@ -11,9 +11,9 @@ variables' values.
 
 ## Examples
 
-[![paemuri][./static/paemuri.png]][1]
+[![paemuri](./static/paemuri.png)][1]
 
-[![Kapiyeya][./static/kapiyeya.png]][2]
+[![Kapiyeya](./static/kapiyeya.png)][2]
 
 ## License
 
