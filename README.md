@@ -11,9 +11,9 @@ variables' values.
 
 ## Examples
 
-[![paemuri](./static/paemuri.png)][1]
+[![paemuri](./examples/paemuri.png)][1]
 
-[![Kapiyeya](./static/kapiyeya.png)][2]
+[![Kapiyeya](./examples/kapiyeya.png)][2]
 
 ## Source code
 
@@ -33,7 +33,7 @@ conditions.
 
 ### Third-party and exceptions
 
-The images in `static/` are screenshots of Subeta profiles using this theme.
+The images in `examples/` are screenshots of Subeta profiles using this theme.
 They contain third-party content and are included only as documentation; they
 are not covered by this project's license.
 
